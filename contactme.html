@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>🏖 Contact me</title>
+</head>
+
+<body>
+  <h2>My informations</h2>
+  <!-- table element contains tr that encloses th and td
+       but we should wrap the header section with thead element
+       and the body with tbody and tfoot because this allows selection
+       in css-->
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Data</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Tél</td>
+        <td>06 65 41 80 29</td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>haboukhassib@yahoo.fr</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <!--Here we change the action to mailto and we add the encodetype to text/plain-->
+  <!--the name attribute is used in the post email-->
+
+  <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="mail"><br>
+    Comment:<br>
+    <input type="text" name="comment" size="50"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+
+</html>

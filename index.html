@@ -1,0 +1,84 @@
+<!-- boilerplate are snippet to use like html-->
+<!-- see the emmet shorcuts-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!--the haed section concerns only the page, not visible to the user-->
+
+<head>
+  <!--we can use utf-8 to add emojies-->
+  <meta charset="utf-8">
+  <meta name="description" content="this is my first web page">
+  <meta name="keywords" content="Hicham ABOUKHASSIB">
+  <title>🏖 Personal's Hicham Site</title>
+</head>
+
+<body>
+  <!-- here we are going to use table element for layout -->
+  <table cellspacing="20">
+    <td><img src="images/Hicham.jpg" width="200" height="150" alt="Hicham ABOUKHASSIB Photo"></td>
+    <td>
+      <h1>Hicham ABOUKHASSIB</h1>
+      <!--use <em> instead of <i> the former use logical state and the second uses
+          the pysical state. with the former you can use further styling
+          same as <strong> insted of <b>-->
+      <p><em>Python Data Expert</em></p>
+      <strong><a href="https://www.appbrewery.co">App Brewery</a></strong>
+      <p>20 years experineces with lots of data engeneering projects and three
+        major certifications</p>
+      <p><em><a href="contactme.html">Contact me</a></em></p>
+    </td>
+  </table>
+  <hr size="3" noshade>
+  <h3>Certifications</h3>
+  <ol type="A">
+    <li>Database Management</li>
+    <ol type="i">
+      <li><a href="https://www.youracclaim.com/badges/c97cb55b-2f5a-4434-9963-260940367abd/linked_in_profile">SQL Server Datawarehousing</a></li>
+      <li><a href="https://www.youracclaim.com/badges/b3b86710-8867-42cf-bc71-18ec2265d3fa/linked_in_profile">SQL Server Administrtaion</a></li>
+      <li><a href="https://www.youracclaim.com/badges/43d936b0-2bf1-45e3-b174-6642f0a70346/linked_in_profile">SQL Server Querying</a></li>
+    </ol>
+    <li>System Management</li>
+    <ol type="i">
+      <li>Windows Computing</li>
+      <li>Windows Networking</li>
+      <li>Windows Active Directory</li>
+    </ol>
+    <li>Network Management</li>
+    <ol type="i">
+      <li>Cisco Routing</li>
+      <li>Cisco Switching</li>
+    </ol>
+  </ol>
+  <h3>Skils</h3>
+  <table span="4" cellspacing="5">
+    <tr>
+      <td>SQL Server </td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Windows Server</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    <tr>
+      <td>Networking</td>
+      <td>⭐⭐⭐⭐</td>
+      <td>Python</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
+      <td>⭐⭐⭐⭐</td>
+      <td>HTML-CSS</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+  </table>
+  <hr size="3" noshade>
+  <h3>Useful links</h3>
+  <ul>
+    <li><a href="https://www.appbrewery.co/p/web-development-course-resources">Web development course</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/">MDN</a></li>
+    <li><a href="https://devdocs.io/">devdocs.io</a></li>
+  </ul>
+  <h3>Useful downloads</h3>
+  <!-- seems like dowload attribute not working: you have to own the file in your web site to be able to use this attribue-->
+  <li><a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" download="htmlcheatsheet.pdf">HTML Cheat Sheet</a></li>
+</body>
+
+</html>
